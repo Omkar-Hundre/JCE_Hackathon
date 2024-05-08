@@ -1,0 +1,192 @@
+
+
+.landing-section-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.landing-section-container-first-half {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px 0 50px;
+}
+.landing-section-container-image-tile-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:10px;
+}
+.landing-section-container-image-tile-first-half{
+    display: grid;
+    grid-template-rows: 20% 40% 40%;
+    gap:10px;}
+.landing-section-container-image-tile-second-half{
+    display: grid;
+    grid-template-rows: 40% 40% 20%;
+    gap:10px;
+}
+.image-tile-image-container img{
+    width:100%;
+    height:100%;
+}
+.story-container-link{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color:black;
+    text-decoration: none;
+}
+.story-cotainer-link > div{
+    width:100%
+}
+.story-image img{
+    width:100%;
+    height:100%
+}
+.story-text {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: center;
+}
+
+footer{
+    background-color: #111;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 0 0 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(70, 107, 255, 0.7); /* Cool translucent blue color */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+
+  .container-fluid{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    height: 60px;
+  }
+  
+  .navbar-brand {
+    color: #fff; /* White color for text */
+  }
+  
+  .navbar-brand img {
+    margin-right: 10px;
+    height: 20px;
+    width: auto;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff; /* White color for text */
+  }
+  
+  .navbar-nav .nav-link.active {
+    font-weight: bold; /* Bold font for active link */
+  }
+  
+  .navbar-nav {
+    display: flex; /* Make the navbar items horizontal */
+    justify-content: flex-end; /* Align items to the right */
+    margin-right: 20px; /* Add some right margin */
+  }
+  
+  .navbar-nav .nav-item {
+    margin-left: 20px; /* Add spacing between items */
+  }
+
+  .nav-item a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    color: white;
+    font-style: normal;
+  }
+
+  .collapse {
+    transform: translateX(1100px);
+  }
+  
+  ul li{
+    margin-right: 20px;
+  }
